@@ -19,6 +19,14 @@ public class Dogtester {
         Dog dog1 = new Dog("Rover", "Spaniel", 8, 4);
         Dog dog2 = new Dog("Spot", "Border Collie");
         Dog dog3 = new Dog();
+        
+        //doq.name = "spot"
+        //dog1.name = "spot";
+        dog1.setAggression(1);
+        System.out.println(dog1.getAggression());
+        System.out.println(dog2.getAggression());
+        System.out.println(dog3.getAggression());
+        
 
         //Print the details of each dog
         System.out.println(dog1.toString());
